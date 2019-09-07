@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.v.i.c.test</groupId>
+    <artifactId>c-test</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <artifactId>template-parent</artifactId>
+        <groupId>com.v.i</groupId>
+        <version>2.0.8.20170424-RELEASE</version>
+    </parent>
+
+    <modules>
+        <!--<module>c-test-service</module>-->
+        <module>c-test-facade</module>
+        <module>c-test-service</module>
+        <module>c-test-dal</module>
+        <!--<module>c-test-dal</module>
+        <module>c-test-web</module>
+        <module>c-test-tester</module>-->
+    </modules>
+</project>
